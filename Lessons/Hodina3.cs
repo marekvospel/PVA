@@ -36,17 +36,17 @@ namespace PVA.Lessons {
             /*
              * Metody mohou vracet i nejake data
              */
-            string pi = GetPi();
-            Console.WriteLine("Hodnota pi je {0}.",pi);
+            double pi = GetPi();
+            Console.WriteLine("Hodnota pi je {0}.", pi);
         }
 
         /*
-         * Vytvoreni metody ktera vraci text Pi ("3.14")
+         * Vytvoreni metody ktera vraci cislo Pi ("3.14")
          * Da se take napsat jako
-         * private static string GetPi() => "3.14";
+         * private static string GetPi() => Math.PI;
         */
-        private static string GetPi() {
-            return "3.14";
+        private static double GetPi() {
+            return Math.PI;
         }
 
         /*
