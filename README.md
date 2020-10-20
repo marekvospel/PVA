@@ -1,6 +1,6 @@
 ﻿# PVA
 
-V tomto repozitáři jsou mépoznámky a domácí úkoly na PVA.
+V tomto repozitari jsou me poznámky a domací ukoly na PVA.
 
 ## Poznamky
 Vsechny poznamky mohou byt nalezene ve slozce **Lessons**.

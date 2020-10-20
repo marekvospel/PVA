@@ -6,9 +6,12 @@
     <e p="C:\Users\1vomarek1\RiderProjects\Skola\PVA\PVA" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Homeworks" t="Include" />
       <e p="Lessons" t="Include">
+        <e p="Hodina1.cs" t="Include" />
+        <e p="Hodina2.cs" t="Include" />
         <e p="Hodina3.cs" t="Include" />
+        <e p="Hodina4.cs" t="Include" />
+        <e p="Hodina5.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
