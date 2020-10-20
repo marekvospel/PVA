@@ -3,10 +3,10 @@
 V tomto repozitari jsou me poznámky a domací ukoly na PVA.
 
 ## Poznamky
-Vsechny poznamky mohou byt nalezene ve slozce **Lessons**.
+Vsechny poznamky najdete ve slozce **Lessons**.
 
-## Domaci Ukoly
-Domaci ukoly najdeve ve slozce **Homeworks**
+## Domaci ukoly
+Domaci ukoly najdete ve slozce **Homeworks**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

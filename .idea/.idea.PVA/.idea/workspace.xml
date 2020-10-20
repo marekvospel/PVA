@@ -9,15 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina5.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PVA.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PVA.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +31,10 @@
         <option value="$PROJECT_DIR$/Lessons/Hodina5.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina4.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina3.cs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina2.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina1.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -98,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603187897148</updated>
       <workItem from="1603187908304" duration="2878000" />
-      <workItem from="1603192453838" duration="7457000" />
+      <workItem from="1603192453838" duration="7555000" />
+      <workItem from="1603200111273" duration="31000" />
     </task>
     <servers />
   </component>
