@@ -1,12 +1,12 @@
 ﻿# PVA
 
-V tomto repozitáři jsou mépoznámky a domácí úkoly na PVA.
+V tomto repozitáři jsou mé poznámky a domácí úkoly na PVA.
 
-## Poznamky
-Vsechny poznamky mohou byt nalezene ve slozce **Lessons**.
+## Poznámky
+Všechny poznámky naleznete ve složce **Lessons**.
 
-## Domaci Ukoly
-Domaci ukoly najdeve ve slozce **Homeworks**
+## Domácí úkoly
+Domácí úkoly najdete ve složce **Homeworks**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
