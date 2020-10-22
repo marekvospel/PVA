@@ -1,4 +1,5 @@
-﻿using PVA.Lessons;
+﻿using PVA.Homeworks;
+using PVA.Lessons;
 
 namespace PVA {
     
@@ -7,7 +8,7 @@ namespace PVA {
         // Startovaci metoda celeho programu
         static void Main(string[] args) {
             
-            Hodina1.Start();
+            Ukol1.Start();
             
         }
         

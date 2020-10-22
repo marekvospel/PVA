@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace PVA.Lessons {
 
@@ -55,11 +56,10 @@ namespace PVA.Lessons {
 
         /*
          * Vlastni metoda - kod uvnitr
-         * Kalkulacka - viz hodina 1
-         * TODO: dopsat hodinu 1
+         * Kalkulacka
          */
         private static void Kalkulacka() {
-            // TODO: udelat kalkulacku
+            char[] operators = { '+', '-', '*', '/'};
             double first;
             double second;
             char op;
@@ -70,14 +70,22 @@ namespace PVA.Lessons {
             }
             
             while (true) {
-                Console.Write("Number 2:");
-                if (double.TryParse(Console.ReadLine(), out first)) break;
+                Console.Write("Enter operator:");
+                string input = Console.ReadLine();
+                if (input == null) continue;
+                op = input.ToCharArray()[0];
+                if (operators.Contains(op)) break;
             }
             
             while (true) {
                 Console.Write("Number 2:");
                 if (double.TryParse(Console.ReadLine(), out second)) break;
             }
+            
+            if (op.Equals('+')) Console.WriteLine("The result is {0}", first + second);
+            if (op.Equals('-')) Console.WriteLine("The result is {0}", first - second);
+            if (op.Equals('*')) Console.WriteLine("The result is {0}", first * second);
+            if (op.Equals('/')) Console.WriteLine("The result is {0}", first / second);
         }
 
         /*
