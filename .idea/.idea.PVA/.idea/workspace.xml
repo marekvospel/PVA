@@ -9,10 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homeworks/Ukol1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode2015/Day1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode2015/Day2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode2015/Day3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode2015/Day4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode2015/Day5.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Hodina6.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina5.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +40,15 @@
         <option value="$PROJECT_DIR$/Lessons/Hodina2.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina1.cs" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Homeworks/Ukol1.cs" />
         <option value="$PROJECT_DIR$/Lessons/Hodina5.cs" />
+        <option value="$PROJECT_DIR$/Lessons/Hodina6.cs" />
+        <option value="$PROJECT_DIR$/AdventOfCode2015/Day1.cs" />
+        <option value="$PROJECT_DIR$/AdventOfCode2015/Day2.cs" />
+        <option value="$PROJECT_DIR$/AdventOfCode2015/Day3.cs" />
+        <option value="$PROJECT_DIR$/AdventOfCode2015/Day4.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/AdventOfCode2015/Day5.cs" />
       </list>
     </option>
   </component>
@@ -62,6 +72,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -98,7 +109,9 @@
       <workItem from="1603200111273" duration="333000" />
       <workItem from="1603200516619" duration="33000" />
       <workItem from="1603213271848" duration="75000" />
-      <workItem from="1603346479452" duration="1116000" />
+      <workItem from="1603346479452" duration="3359000" />
+      <workItem from="1604400128264" duration="8328000" />
+      <workItem from="1604436137550" duration="2703000" />
     </task>
     <servers />
   </component>
@@ -127,29 +140,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-82" y="825" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603213346713" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1603196473741">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1604438666806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603196473741" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1603196473741">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604438666806" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1604438666806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603196473741" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1603196473741">
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604438666806" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1604438666806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603196473741" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1603196473741">
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604438666806" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1604438666806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603196473741" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604438666806" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1603189261837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603189261837" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1603213346713">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1603352191414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603352191414" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603213346713" />
   </component>
 </project>

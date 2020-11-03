@@ -5,6 +5,13 @@
     <e p="C:\Users\1vomarek1\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PVA.990014141.00" t="ExcludeRecursive" />
     <e p="C:\Users\1vomarek1\RiderProjects\Skola\PVA\PVA" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
+      <e p="AdventOfCode2015" t="Include">
+        <e p="Day1.cs" t="Include" />
+        <e p="Day2.cs" t="Include" />
+        <e p="Day3.cs" t="Include" />
+        <e p="Day4.cs" t="Include" />
+        <e p="Day5.cs" t="Include" />
+      </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="Homeworks" t="Include">
         <e p="Ukol1.cs" t="Include" />
@@ -15,6 +22,7 @@
         <e p="Hodina3.cs" t="Include" />
         <e p="Hodina4.cs" t="Include" />
         <e p="Hodina5.cs" t="Include" />
+        <e p="Hodina6.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
