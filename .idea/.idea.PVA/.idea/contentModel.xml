@@ -11,10 +11,12 @@
         <e p="Day3.cs" t="Include" />
         <e p="Day4.cs" t="Include" />
         <e p="Day5.cs" t="Include" />
+        <e p="Day6.cs" t="Include" />
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="Homeworks" t="Include">
         <e p="Ukol1.cs" t="Include" />
+        <e p="Ukol3.cs" t="Include" />
       </e>
       <e p="Lessons" t="Include">
         <e p="Hodina1.cs" t="Include" />
@@ -23,6 +25,8 @@
         <e p="Hodina4.cs" t="Include" />
         <e p="Hodina5.cs" t="Include" />
         <e p="Hodina6.cs" t="Include" />
+        <e p="Hodina7.cs" t="Include" />
+        <e p="Hodina8.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">

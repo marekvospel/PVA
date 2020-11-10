@@ -1,5 +1,4 @@
-﻿using PVA.AdventOfCode2015;
-using PVA.Homeworks;
+﻿using PVA.Homeworks;
 using PVA.Lessons;
 
 namespace PVA {
@@ -9,7 +8,7 @@ namespace PVA {
         // Startovaci metoda celeho programu
         static void Main(string[] args) {
             
-            Day5.Start();
+            AdventOfCode2015.Day6.Start();
             
         }
         
