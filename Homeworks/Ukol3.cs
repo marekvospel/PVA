@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 
 namespace PVA.Homeworks {
     
-    public class UkolX {
+    public class Ukol3 {
 
         public static void Start() {
             
@@ -19,6 +20,34 @@ namespace PVA.Homeworks {
             // Zjednodusene zapsani
             Console.WriteLine(RemoveMultiples("abccabc".ToCharArray(), 1));
             
+            // Spusteni DoS utoku na web ssps.cz
+            DoS("https://ssps.cz");
+        }
+
+        static void DoS(string url) {
+            
+            Console.WriteLine("Starting DoS attack on {0}...", url);
+            
+            // Prevedeni stringu na Uri objekt
+            Uri uri = new Uri(url);
+            
+            Console.WriteLine("Attacking...");
+
+            // Vytvoreni webove zadosti
+            HttpWebRequest request = (HttpWebRequest) WebRequest.Create(uri);
+            // Ziskani odpovedi ze zadosti request
+            HttpWebResponse response = (HttpWebResponse) request.GetResponse();
+            
+            // Pokud http status code requestu je 200
+            if (response.StatusCode.Equals(HttpStatusCode.OK)) {
+                Console.WriteLine("Attack was successfull with 1 web request!");
+            } else {
+                Console.WriteLine("Attack was not succesfull! :c");
+            }
+
+            // Zavrit pripojeni
+            response.Close();
+
         }
 
         static char[] Deduplicate(char[] input) {

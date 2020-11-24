@@ -8,7 +8,7 @@ namespace PVA {
         // Startovaci metoda celeho programu
         static void Main(string[] args) {
             
-            AdventOfCode2015.Day6.Start();
+            Ukol4.Start();
             
         }
         
