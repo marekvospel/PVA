@@ -9,15 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina11.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina12.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PVA.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PVA.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PVA.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Hodina11.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina11.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Hodina12.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina12.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAF1C499-A2F8-458A-B9BD-7154E51A6DCF/90/d22de058/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAF1C499-A2F8-458A-B9BD-7154E51A6DCF/a9/f339a0ab/Random.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -116,7 +111,7 @@
       <workItem from="1606819087640" duration="436000" />
       <workItem from="1606819960981" duration="1908000" />
       <workItem from="1607014393572" duration="962000" />
-      <workItem from="1608029018675" duration="494000" />
+      <workItem from="1608029018675" duration="2935000" />
     </task>
     <servers />
   </component>

@@ -38,7 +38,7 @@ namespace PVA.Lessons {
              */
 
             // Vytvorime objekt Clovek
-            Clovek marek = new Clovek();
+            Clovek11 marek = new Clovek11();
 
             // K hodnote Age a Weight nemuzu pristupovat jelikoz jsou private
             // marek.Weight = 60;
@@ -63,7 +63,7 @@ namespace PVA.Lessons {
              * vice dole
              */
 
-            Clovek franta = new Clovek(5, 30, "franta");
+            Clovek11 franta = new Clovek11(5, 30, "franta");
 
             // Nyni ma franta hodnotu veku, vahy a jmena bez potreby pouziti franta.Name = "Franta";
             Console.WriteLine(franta);
@@ -78,7 +78,7 @@ namespace PVA.Lessons {
         }
     }
 
-    class Clovek  {
+    class Clovek11  {
         // Class muze mit sve data (jako lide muzou mit v hlave data - napr jmeno, vek, vaha atd.)
         double Weight;
         // Kvuli programatorskym "pravidlum" se uvadi private ikdyz je private defaultne, kvuli citelnosti kodu
@@ -108,7 +108,7 @@ namespace PVA.Lessons {
         // Tridy maji automaticky constructor bez parametru ()
 
         // ale defaultni muzeme prepsat pomoci vytvoreni jineho constructeru
-        public Clovek () {
+        public Clovek11 () {
             // K vlastnim udajum muzeme pristupovat pomoci pouziti jejich nazvu
             Weight = 0;
             // nebo pomoci this.jejich nazev
@@ -117,7 +117,7 @@ namespace PVA.Lessons {
 
         // Pokud chceme v constructeru mit parametry, je potreba vytvorit constructor s parametry
         // Pote se to pouzije pomoci new Clovek(<parametry>);
-        public Clovek (int Age, int Weight, string Name) {
+        public Clovek11 (int Age, int Weight, string Name) {
             this.Age = Age;
             this.Weight = Weight;
             this.Name = Name;
