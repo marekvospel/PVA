@@ -1,17 +1,17 @@
-﻿using PVA.Homeworks;
+﻿using System;
+using PVA.Homeworks;
 using PVA.Lessons;
 
 namespace PVA {
-    
+
     class Program {
-    
+
         // Startovaci metoda celeho programu
         static void Main(string[] args) {
-            
-            Ukol4.Start();
-            
+
+            Hodina9.Start();
+
+
         }
-        
     }
-    
 }
