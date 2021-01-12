@@ -9,7 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina13.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/Ukol5.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Hodina14.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
@@ -33,8 +34,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Lessons/Hodina12.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina11.cs" />
-      <option value="$PROJECT_DIR$/Program.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina13.cs" />
+      <option value="$PROJECT_DIR$/Homeworks/Ukol5.cs" />
+      <option value="$PROJECT_DIR$/Program.cs" />
+      <option value="$PROJECT_DIR$/Lessons/Hodina14.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j8Zt3DZ0zPK0TZb6d8YAkL22xX" />
@@ -117,7 +120,8 @@
       <workItem from="1606819960981" duration="1908000" />
       <workItem from="1607014393572" duration="962000" />
       <workItem from="1608029018675" duration="3224000" />
-      <workItem from="1609845337919" duration="1604000" />
+      <workItem from="1609845337919" duration="1925000" />
+      <workItem from="1610449438085" duration="3421000" />
     </task>
     <servers />
   </component>
