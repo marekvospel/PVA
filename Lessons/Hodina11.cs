@@ -20,16 +20,21 @@ namespace PVA.Lessons {
 
             // C# si stale pamatuje co za typ (Int32[] ...)
             Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            
             Console.WriteLine(z);
 
             // Pokud pak chceme prevest zpatky z objektu musime pouzit (<typ>):
-            int[] pole2 = (int[]) z;
-            string text = (string) c;
+            // int[] pole2 = (int[]) z;
+            // string text = (string) c;
 
             // coz funguje i napr. s boolem
-            if ((bool) e) {
-                Console.WriteLine("E je bool a je true!");
-            }
+            // if ((bool) e) {
+            //     Console.WriteLine("E je bool a je true!");
+            // }
 
             /* 
              * class Clovek
@@ -65,6 +70,9 @@ namespace PVA.Lessons {
 
             Clovek11 franta = new Clovek11(5, 30, "franta");
 
+            franta.Prezdivka = "frana";
+            Console.WriteLine(franta.Prezdivka);
+
             // Nyni ma franta hodnotu veku, vahy a jmena bez potreby pouziti franta.Name = "Franta";
             Console.WriteLine(franta);
 
@@ -82,7 +90,7 @@ namespace PVA.Lessons {
         // Class muze mit sve data (jako lide muzou mit v hlave data - napr jmeno, vek, vaha atd.)
         double Weight;
         // Kvuli programatorskym "pravidlum" se uvadi private ikdyz je private defaultne, kvuli citelnosti kodu
-        private int Age;
+        double Height;
         // Pokud chceme pouzivat udaj i zvenku class Clovek musime k tomu pridat public
         public string Name;
         public string Address;
@@ -111,16 +119,17 @@ namespace PVA.Lessons {
         public Clovek11 () {
             // K vlastnim udajum muzeme pristupovat pomoci pouziti jejich nazvu
             Weight = 0;
+            Height = 0;
             // nebo pomoci this.jejich nazev
-            this.Age = 0;
+            // this.Age = 0;
         }
 
         // Pokud chceme v constructeru mit parametry, je potreba vytvorit constructor s parametry
         // Pote se to pouzije pomoci new Clovek(<parametry>);
-        public Clovek11 (int Age, int Weight, string Name) {
-            this.Age = Age;
-            this.Weight = Weight;
-            this.Name = Name;
+        public Clovek11 (int weight, int height, string name) {
+            Weight = weight;
+            Height = height;
+            Name = name;
         }
 
         // Classy mohou mit i vice constructeru a ty mohou byt i private i public
@@ -133,6 +142,13 @@ namespace PVA.Lessons {
 
         // Pomoci Getteru a setteru (definovanych pomoci { get; } { set; } nebo kombinaci { get; set; })
         // muzeme dostat nebo nastavit private hodnotu
-        private string prezdivka { get; set; }
+        public string Prezdivka;
+        
+        
+        public double Bmi() {
+            double vyskaM = Height / 100;
+            double bmi = Weight / Math.Pow(vyskaM, 2);
+            return bmi;
+        }
     }
 }

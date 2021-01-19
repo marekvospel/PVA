@@ -7,7 +7,7 @@ namespace PVA {
     class Program {
 
         // Startovaci metoda celeho programu
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
 
             Ukol5.Start();
 

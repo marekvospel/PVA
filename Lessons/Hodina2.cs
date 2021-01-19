@@ -28,6 +28,8 @@ namespace PVA.Lessons {
             // pouzitim while (true); se kod bude opakovat do nekonecna (o tom vice pozdeji)
             // double.TryParse vraci false ale pokud zadana hodnote (Console.ReadLine()) je double vrati to true 
             
+            Console.WriteLine(num);
+            
             double num2;
             
             // While funguje stejne jen vypada trochu jinak
@@ -35,6 +37,8 @@ namespace PVA.Lessons {
             while (!double.TryParse(Console.ReadLine(), out num2)) {
                 Console.WriteLine("Zadejte cislo...");
             }
+
+            Console.WriteLine(num2);
 
             /*
              * Cyklus #2 for

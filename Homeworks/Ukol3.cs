@@ -50,10 +50,6 @@ namespace PVA.Homeworks {
 
         }
 
-        static char[] Deduplicate(char[] input) {
-            return RemoveMultiples(input, 0);
-        }
-
         static char[] RemoveMultiples(char[] input, int maxOccurance) {
             List<char> output = new List<char>();
 

@@ -7,19 +7,19 @@ namespace PVA.Lessons {
         public static void Start() {
             
             // Spusteni metody returnMethod
-            returnMethod();
+            ReturnMethod();
             
             
             
         }
 
-        public static void returnMethod() {
+        public static void ReturnMethod() {
             
             // Return ukonci metodu test
-            return;
+             // return;
             
             // Tudiz se radek nize nespusti
-            Console.WriteLine("Test");
+            // Console.WriteLine("Test");
         }
     }
 }

@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using System.Collections.Generic;
 
 namespace PVA.Homeworks {
@@ -45,21 +44,21 @@ namespace PVA.Homeworks {
     }
 
     class CommandManager {
-        public List<Command> commands { get; private set; }
+        private List<Command> Commands { get; }
 
         public CommandManager() {
-            commands = new List<Command>();
+            Commands = new List<Command>();
         }
         public void AddCommands(params Command[] cmds) {
             foreach (Command command in cmds) {
-                commands.Add(command);
+                Commands.Add(command);
             }
         }
         
         public Command DetectCommand(string fullCommand) {
             string[] args = fullCommand.Split(null);
 
-            foreach (var cmd in commands) {
+            foreach (var cmd in Commands) {
                 if (args[0].ToLower() == cmd.Name) return cmd;
             }
             
@@ -221,9 +220,13 @@ namespace PVA.Homeworks {
                 Console.WriteLine("Not enough arguments! Usage: add <name> <year> <month> <day> <step 1> [step2] [step3]...");
                 return 1;
             }
-
-            if (!double.TryParse(args[2], out double check) || !double.TryParse(args[3], out double check2) || !double.TryParse(args[4], out double check3)) {
+            
+            double check2 = 0;
+            double check3 = 0;
+            
+            if (!double.TryParse(args[2], out double check) || !double.TryParse(args[3], out check2) || !double.TryParse(args[4], out check3)) {
                 Console.WriteLine("Year, month or day is invalid! Usage: add <name> <year> <month> <day> <step 1> [step2] [step3]...");
+                Console.WriteLine($"You entered values: Year: {check}, Month: {check2} and Day: {check3}");
                 return 1;
             }
             

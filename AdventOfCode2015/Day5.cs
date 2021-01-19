@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace PVA.AdventOfCode2015 {
     public class Day5 {
@@ -1009,12 +1008,18 @@ gtjscincktlwwkkf
 wtebigbaythklkbd";
             
             int nice = 0;
+            int nice2 = 0;
 
             foreach (string s in inputs.Split("\n")) {
-                if (IsNice2(s)) nice++;
+                if (IsNice(s)) nice++;
+            }
+            
+            foreach (string s in inputs.Split("\n")) {
+                if (IsNice2(s)) nice2++;
             }
 
             Console.WriteLine("There is {0} nice strings.", nice);
+            Console.WriteLine("There is {0} nice 2 strings.", nice2);
 
         }
 

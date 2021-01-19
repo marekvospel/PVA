@@ -25,7 +25,7 @@ namespace PVA.Homeworks {
                     Console.Write("Enter value {0}:", i + 1);
                     string input = Console.ReadLine();
                     // Validace vstupu
-                    if (input.Length >= 1) {
+                    if (input != null && input.Length >= 1) {
                         arr1[i] = input[0];
                         break;
                     } 
@@ -44,7 +44,7 @@ namespace PVA.Homeworks {
                     Console.Write("Enter value {0}:", i + 1);
                     string input = Console.ReadLine();
                     // Validace vstupu
-                    if (input.Length >= 1) {
+                    if (input != null && input.Length >= 1) {
                         arr2[i] = input[0];
                         break;
                     } 
@@ -70,6 +70,8 @@ namespace PVA.Homeworks {
                 // Prerusit pokud je vstup platny
                 if (input2 != "") break;
             }
+
+            if (input2 == null) return;
 
             // definovani aktualnich hodnot (ktere se pouzivaji v loopu jako aktualni znak a info o nem)
             char currentChar = default;

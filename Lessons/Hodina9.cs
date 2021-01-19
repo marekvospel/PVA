@@ -24,6 +24,12 @@ namespace PVA.Lessons {
             // Nahodne cislo mezi 0 a 1
             double random4 = random.NextDouble();
             
+            // Vypsani vygenerovanych cisel
+            Console.WriteLine(random1);
+            Console.WriteLine(random2);
+            Console.WriteLine(random3);
+            Console.WriteLine(random4);
+            
             // Spusteni metody RandomArr
             int[] arr = RandomArr(10, 11);
             

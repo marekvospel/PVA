@@ -20,7 +20,7 @@ namespace PVA.Lessons {
             
             Console.WriteLine(clovek.Jmeno);
             
-            Console.WriteLine(clovek.BMI());
+            Console.WriteLine(clovek.Bmi());
             
             
             // vypsani informaci jako datumu vytvoreni atd.
@@ -57,9 +57,9 @@ namespace PVA.Lessons {
             }
         }
 
-        public string Prijmeni { get; set; }
+        public string Prijmeni;
         public double Vyska { get; set; }
-        public int Vek { get; set; }
+        public int Vek;
         public double Hmotnost { get; set; }
 
         public Clovek(string jmeno, string prijmeni, int vek, double vyska, double hmotnost) {
@@ -71,8 +71,8 @@ namespace PVA.Lessons {
             this.Vek = vek;
         }
 
-        public double BMI() {
-            double vyskaM = (double) Vyska / 100;
+        public double Bmi() {
+            double vyskaM = Vyska / 100;
             double bmi = Hmotnost / Math.Pow(vyskaM, 2);
             return bmi;
         }

@@ -33,6 +33,8 @@ namespace PVA.Lessons {
             list.Add(100);
             list.Add(150);
             
+            list2.Add('t');
+            
             // Na odebrani pak muzeme pouzit metody jako
             
             // Odebere 1. hodnotu (10) - index 0 
@@ -46,6 +48,7 @@ namespace PVA.Lessons {
             
             // Hodnotu z listu vypiseme stejne jako z pole
             Console.WriteLine(list[1]);
+            Console.WriteLine(list2[0]);
             
             // Opakovat s kazdou hodnotou v listu
             foreach (double i in list) {

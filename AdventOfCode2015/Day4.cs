@@ -14,7 +14,10 @@ namespace PVA.AdventOfCode2015 {
 
                 string hash = Encode(input + i);
 
-                if (hash.StartsWith("000000")) Console.Write("\nThe number is {0}!\n", i);
+                if (hash.StartsWith("000000")) {
+                    Console.Write("\nThe number is {0}!\n", i);
+                    return;
+                }
                 
                 Console.Write("\rCurrently on position {0}! Current MD5 hash is {1}", i, hash);
                 i++;

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Numerics;
-using System.Xml;
 
 namespace PVA.AdventOfCode2015 {
     public class Day6 {
