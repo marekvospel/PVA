@@ -26,7 +26,7 @@ namespace PVA.Lessons {
                 if (!item.Complete)
                 {
                     Console.Write(item.Name + " ");
-                    Console.WriteLine(item.deathLine);
+                    Console.WriteLine(item.DeathLine);
                     Console.WriteLine(item.Description);
                     Console.WriteLine();
                 }               
@@ -39,11 +39,11 @@ namespace PVA.Lessons {
         public string Name { get; set; }
         public string Description { get; set; }
         public bool Complete { get; set; }
-        public DateTime deathLine; 
+        public DateTime DeathLine; 
         public Task(string name, string descrition, DateTime dLine) {
             Name = name;
             Description = descrition;
-            deathLine = dLine;
+            DeathLine = dLine;
             Complete = false;
         }
     }

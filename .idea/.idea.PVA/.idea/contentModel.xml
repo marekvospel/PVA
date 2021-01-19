@@ -15,6 +15,7 @@
       </e>
       <e p="Homeworks" t="Include">
         <e p="Ukol1.cs" t="Include" />
+        <e p="Ukol2.cs" t="Include" />
         <e p="Ukol3.cs" t="Include" />
         <e p="Ukol4.cs" t="Include" />
         <e p="Ukol5.cs" t="Include" />
