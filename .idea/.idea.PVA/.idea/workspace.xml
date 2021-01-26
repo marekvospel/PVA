@@ -9,21 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lessons/Hodina15.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2015/Day3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2015/Day3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2015/Day4.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2015/Day4.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2015/Day5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2015/Day5.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2015/Day6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2015/Day6.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/Ukol2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/Ukol2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/Ukol3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/Ukol3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/Ukol5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/Ukol5.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina10.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina10.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina11.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina11.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina12.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina12.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina4.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina4.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina9.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina9.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +25,6 @@
     <setting file="file://$PROJECT_DIR$/Lessons/Hodina13.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lessons/Hodina12.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAF1C499-A2F8-458A-B9BD-7154E51A6DCF/90/d22de058/Math.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAF1C499-A2F8-458A-B9BD-7154E51A6DCF/a9/f339a0ab/Random.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DBB896-6B20-4A14-9B6A-7AB43642646D/a3/3757bbe9/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -61,6 +46,7 @@
       <option value="$PROJECT_DIR$/Lessons/Hodina10.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina12.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina11.cs" />
+      <option value="$PROJECT_DIR$/Lessons/Hodina15.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j8Zt3DZ0zPK0TZb6d8YAkL22xX" />
@@ -75,6 +61,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/usr/share/dotnet/dotnet" />
@@ -86,7 +73,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -147,6 +134,9 @@
       <workItem from="1610449438085" duration="3644000" />
       <workItem from="1610633412019" duration="4683000" />
       <workItem from="1611064273159" duration="2167000" />
+      <workItem from="1611661626246" duration="140000" />
+      <workItem from="1611661878547" duration="39000" />
+      <workItem from="1611661949535" duration="1590000" />
     </task>
     <servers />
   </component>
