@@ -9,9 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/Hodina15.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Hodina20.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,6 @@
       <option value="$PROJECT_DIR$/Lessons/Hodina13.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol1.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina14.cs" />
-      <option value="$PROJECT_DIR$/Program.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol2.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol3.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol5.cs" />
@@ -47,6 +47,8 @@
       <option value="$PROJECT_DIR$/Lessons/Hodina12.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina11.cs" />
       <option value="$PROJECT_DIR$/Lessons/Hodina15.cs" />
+      <option value="$PROJECT_DIR$/Program.cs" />
+      <option value="$PROJECT_DIR$/Lessons/HodinaX.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j8Zt3DZ0zPK0TZb6d8YAkL22xX" />
@@ -137,6 +139,9 @@
       <workItem from="1611661626246" duration="140000" />
       <workItem from="1611661878547" duration="39000" />
       <workItem from="1611661949535" duration="1590000" />
+      <workItem from="1615890780309" duration="2000" />
+      <workItem from="1615890809231" duration="16000" />
+      <workItem from="1615892312158" duration="1927000" />
     </task>
     <servers />
   </component>
