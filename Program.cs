@@ -9,7 +9,7 @@ namespace PVA {
         // Startovaci metoda celeho programu
         public static void Main(string[] args) {
 
-            HodinaX.Start();
+            Ukol8.Start();
 
 
         }

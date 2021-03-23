@@ -3,7 +3,7 @@ using System.IO;
 
 namespace PVA.Lessons {
 
-    public class HodinaX {
+    public class Hodina20 {
 
         public static void Start() {
             // Prace se soubory
