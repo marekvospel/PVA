@@ -9,13 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4048e3-6ce4-4204-9b84-3afbece98c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homeworks/Ukol6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/Ukol7.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/Ukol8.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Hodina21.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Hodina20.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Hodina20.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lessons/Hodina13.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +60,7 @@
       <option value="$PROJECT_DIR$/Program.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol6.cs" />
       <option value="$PROJECT_DIR$/Homeworks/Ukol8.cs" />
+      <option value="$PROJECT_DIR$/Lessons/Hodina21.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j8Zt3DZ0zPK0TZb6d8YAkL22xX" />
@@ -150,7 +155,8 @@
       <workItem from="1615890809231" duration="16000" />
       <workItem from="1615892312158" duration="1927000" />
       <workItem from="1616431535897" duration="2049000" />
-      <workItem from="1616492129558" duration="1630000" />
+      <workItem from="1616492129558" duration="1687000" />
+      <workItem from="1616498769408" duration="879000" />
     </task>
     <servers />
   </component>
